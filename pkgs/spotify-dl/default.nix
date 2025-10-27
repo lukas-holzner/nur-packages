@@ -2,12 +2,12 @@
 
 rustPlatform.buildRustPackage {
   pname = "spotify-dl";
-  version = "0.9.2";
+  version = "0.9.3";
 
   src = fetchFromGitHub {
     owner = "flxo";
     repo = "spotify-dl";
-    rev = "e0dbe12c3e53b211bc6834ce27bf8a996b1905e2"; # bump-librespot branch head
+    rev = "bump-librespot";
     hash = "sha256-X9+2w8Frj3qOEwTgT3dBqtvffLcmgq52BZYx0i7ZJ0Q=";
   };
 

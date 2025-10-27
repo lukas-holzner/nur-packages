@@ -15,4 +15,5 @@
   overlays = import ./overlays; # nixpkgs overlays
 
   spotify-dl = pkgs.callPackage ./pkgs/spotify-dl { };
+  hping = pkgs.python3Packages.callPackage ./pkgs/hping { };
 }

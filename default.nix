@@ -16,4 +16,5 @@
 
   spotify-dl = pkgs.callPackage ./pkgs/spotify-dl { };
   hping = pkgs.python3Packages.callPackage ./pkgs/hping { };
+  gemini-cli = pkgs.callPackage ./pkgs/gemini-cli { };
 }

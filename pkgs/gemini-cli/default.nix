@@ -19,10 +19,10 @@ buildNpmPackage (finalAttrs: {
     owner = "google-gemini";
     repo = "gemini-cli";
     tag = "v${finalAttrs.version}";
-    hash = "sha256-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=";
+    hash = "sha256-7v3jH1/iDJfyL49PGK2UoaXp9SoOgfXAP1kAgadhhBU=";
   };
 
-  npmDepsHash = "sha256-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=";
+  npmDepsHash = "sha256-0FY33bof6vI6oSNa3zd2OSYJNYj0kX7q93i/qLnopEc=";
 
   nativeBuildInputs = [
     jq
